@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px green;
+    background-image: linear-gradient(to bottom right, white, lightgreen);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p {
+    margin: 15px 0;
+}
